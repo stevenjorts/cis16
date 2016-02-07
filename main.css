@@ -1,0 +1,44 @@
+body {
+	background-color: black;
+  	color: rgba(255,255,255,1);
+	font-family: Andale Mono;
+	text-align: center;
+    text-shadow: 0 0 1px rgba(50,255,22,1) , 0 0 4px rgba(8,104,13,1) , 0 0 0 rgba(0,255,33,1) , 0 0 0 #00ff2a , 0 0 9px #00ff11 , 0 0 0 #00ff00 , 0 -1px 63px #00ff2e ; 
+	}
+
+.header {
+ 	font-size: 70px;
+  	padding: 10px;
+  	padding-bottom: 70px;
+  	text-align: center;
+	}
+
+.poem {
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	}
+
+.poem-footer {
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	margin-bottom: 30px;
+	}
+
+.poem-sub {
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	margin: 20px;
+	}
+
+
+.intStudio {
+	text-align: left;
+	margin-top: 100px;
+	}
+
+
+a:link    {color: rgba(255,255,255,1); background-color:transparent; text-decoration:none;}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}

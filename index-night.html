@@ -1,0 +1,69 @@
+<!doctype html>
+
+<head>
+	<title>Night</title>
+	<style>
+		div {
+
+			color:black;
+			background-color: black;
+			font-family: courier;
+			font-size: 25px;
+			text-align: center;
+			padding: 30px;
+			}
+
+		.first-div:active {
+
+		color: white;
+
+		}
+		.second-div:active{
+
+		color: white;
+
+		}
+		.third-div:hover{
+
+		color: white;
+
+	}
+		.margin{
+			margin-top: 200px
+		}
+		.home{
+			color: black;
+			background-color: white;
+		}
+	</style>
+</head>
+
+<body>
+
+	<body bgcolor="black">
+
+	<div class="margin">
+
+	<div class="first-div">
+		Hey! ...even snake gourds
+	</div>
+
+	<div class="second-div">
+		become Buddhas...
+	</div>
+
+	<div class="third-div">
+		don't get caught behind!
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+<script>
+$( ".third-div" ).click(function() {
+  $( ".second-div" ).toggleClass("home");
+});
+</script>
+
+</body>

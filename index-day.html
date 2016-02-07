@@ -1,0 +1,57 @@
+<!doctype html>
+
+<head>
+	<title>Day</title>
+	<style>
+		div {
+
+			color: lightblue;
+			font-family: georgia;
+			font-size: 125px;
+			text-align: center;
+		}
+
+		.first-div:hover{
+
+			background-color: yellow;
+		}
+		.second-div:hover{
+
+			background-color: yellow;
+		}
+		.third-div:hover{
+			background-color: yellow;
+		}
+		.third-div:active{
+			font-size: 15px;
+		}
+		.home{
+			font-size: 250px;
+			color: red;
+			background-color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="first-div">
+		Hey! ...even snake gourds
+	</div>
+
+	<div class="second-div">
+		become Buddhas...
+	</div>
+
+	<div class="third-div">
+		don't get caught behind!
+	</div>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+<script>
+$( ".second-div" ).click(function() {
+  $( ".third-div" ).toggleClass("home");
+});
+</script>
+
+</body>
